@@ -1,19 +1,21 @@
+import java.io.Serializable;
+import java.util.Collections;
 import java.util.HashSet;
 
-public class Song {
+public class Song implements Serializable {
     String name;
     String url;
     HashSet<Artist> artists = new HashSet<>();
     HashSet<Release> releases = new HashSet<>();
 
-    public Song(String name, String url, HashSet<Artist> artists) {
+    public Song(String name, String url, Artist[] artists) {
         this.name = name;
         this.url = url;
-        this.artists = artists;
+        Collections.addAll(this.artists, artists);
     }
 
-    public void addReleases(HashSet<Release> releases)
-    {
-        this.releases.addAll(releases);
+    public void addRelease(Release release) {
+        this.releases.add(release);
     }
+
 }

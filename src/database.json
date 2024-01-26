@@ -1,0 +1,54 @@
+{
+  "artists": [
+    {
+      "name": "Led Zeppelin",
+      "url": "https://open.spotify.com/artist/36QJpDe2go2KgaRleHCDTp?si=9e93be67034c4aa7"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg?si=50e456bd29a24213"
+    }
+  ],
+  "songs": [
+    {
+      "name": "Ramble On",
+      "url": "https://open.spotify.com/track/1oCOp1kVAgNlXX9Tx9mvzq?si=6318991a0a684ae8",
+      "artists": [
+        "Led Zeppelin"
+      ]
+    },
+    {
+      "name": "Whole Lotta Love",
+      "url": "https://open.spotify.com/track/3OuMIIFP5TxM8tLXMWYPGV?si=b2efbb589e5344bc",
+      "artists": [
+        "Led Zeppelin"
+      ]
+    }
+  ],
+  "releases": [
+    {
+      "name": "Led Zeppelin II",
+      "url": "https://open.spotify.com/album/58MQ0PLijVHePUonQlK76Y?si=NqW6cGjaR2iWBJLaQoX-gw",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "songs": [
+        "Whole Lotta Love",
+        "Ramble On"
+      ],
+      "type": "Album"
+    },
+    {
+      "name": "Mothership",
+      "url": "https://open.spotify.com/album/4wExFfncaUIqSgoxnqa3Eh?si=obZt0RiRS8C8_itwxQVCBQ",
+      "artists": [
+        "Led Zeppelin"
+      ],
+      "songs": [
+        "Ramble On",
+        "Whole Lotta Love"
+      ],
+      "type": "Compilation"
+    }
+  ]
+}
